@@ -1,0 +1,20 @@
+{
+    "social": [
+        {
+            "network" : "linkedin",
+            "href": "https://www.linkedin.com/in/aditya-zalavadiya-5907b0374/"
+        },
+        {
+            "network" : "github",
+            "href": "https://github.com/aditya-zalavadiya"
+        },
+        {
+            "network" : "email",
+            "href": "mailto:adityazalavdiya007@gmail.com"
+        },
+        {
+            "network" : "whatsapp",
+            "href": "https://wa.me/919773440732"
+        }
+    ]
+}

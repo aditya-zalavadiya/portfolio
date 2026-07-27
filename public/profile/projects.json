@@ -1,0 +1,119 @@
+{
+    "projects": [
+        {
+            "image": "images/projects/portfolio-poster.png",
+            "title": "VisionNest Creative Suite & Engine",
+            "bodyText": "- Next-generation platform bridging **Advanced Software Engineering** and **Cinematographic Digital Storytelling**.\n - Developed high-performance interactive workflows and modern media delivery pipelines.\n - Engineered by Aditya Zalavadiya as Founder & CEO to drive massive creative enterprise scale.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/aditya-zalavadiya"
+                },
+                {
+                    "text": "LinkedIn",
+                    "href": "https://www.linkedin.com/in/aditya-zalavadiya-5907b0374/"
+                }
+            ],
+            "tags": [
+                "React",
+                "Node.js",
+                "Creative Tech",
+                "Digital Media",
+                "VisionNest"
+            ]
+        },
+        {
+            "title": "Quantum & Relativistic Physics Simulation Engine",
+            "bodyText": "- Computational simulation suite engineered during my **MPhil in Physics** at the **University of Waterloo**.\n - Implemented numerical approximations for quantum kinematic interactions and differential field equations.\n - High-accuracy data visualization utilizing analytical mathematical modeling.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/aditya-zalavadiya"
+                }
+            ],
+            "tags": [
+                "Python",
+                "Scientific Computing",
+                "NumPy",
+                "Quantum Physics",
+                "Mathematical Modeling"
+            ]
+        },
+        {
+            "title": "Cinematic Video Post-Production & AI Automation Suite",
+            "bodyText": "- Advanced color grading profiles, motion typography scripts, and automated video editing workflows developed over 5+ years as a **Professional Video Editor**.\n - Integrates **NYU Tisch** cinematography methodologies with modern script-driven media processing.\n - Optimized rendering throughput and automated audio timeline leveling.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/aditya-zalavadiya"
+                }
+            ],
+            "tags": [
+                "Video Editing",
+                "Post-Production",
+                "Python",
+                "Cinematography",
+                "Automation"
+            ]
+        },
+        {
+            "title": "Enterprise Interactive Web Systems (Baunfire)",
+            "bodyText": "- Engineered resilient frontend interfaces, interactive component architectures, and responsive digital products during my tenure at **Baunfire**.\n - Implemented rigorous state management, fluid UX micro-animations, and high-speed RESTful data syncing.\n - Drastically reduced page latency and improved Cross-Browser accessibility scores.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/aditya-zalavadiya"
+                }
+            ],
+            "tags": [
+                "JavaScript",
+                "React",
+                "TypeScript",
+                "Frontend Architecture",
+                "UI/UX"
+            ]
+        },
+        {
+            "title": "Distributed Social Infrastructure Optimization (Meta Internship)",
+            "bodyText": "- Designed scalable software feature components and optimized throughput across distributed engineering modules during my software engineering internship at **Meta (Facebook)**.\n - Collaborated directly with cross-functional system architects to analyze server response telemetry and code performance.\n - Executed comprehensive test coverage and clean code design patterns.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/aditya-zalavadiya"
+                },
+                {
+                    "text": "LinkedIn",
+                    "href": "https://www.linkedin.com/in/aditya-zalavadiya-5907b0374/"
+                }
+            ],
+            "tags": [
+                "Meta",
+                "Distributed Systems",
+                "GraphQL",
+                "Python",
+                "Agile Architecture"
+            ]
+        },
+        {
+            "title": "Dynamic Developer & Entrepreneur Portfolio",
+            "bodyText": "- Modern, glassmorphism-inspired reactive developer portfolio tailored for Aditya Zalavadiya (AZ).\n - Features dynamic markdown rendering, responsive Bento grid UI layouts, and customizable JSON data injection.\n - Full support for custom theme toggling and optimized Core Web Vitals.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/aditya-zalavadiya"
+                },
+                {
+                    "text": "Profile",
+                    "href": "https://www.linkedin.com/in/aditya-zalavadiya-5907b0374/"
+                }
+            ],
+            "tags": [
+                "React",
+                "Vite",
+                "Bento Grid",
+                "Responsive Design",
+                "Portfolio"
+            ]
+        }
+    ]
+}

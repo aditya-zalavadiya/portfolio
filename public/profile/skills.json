@@ -1,0 +1,84 @@
+{
+    "intro": "I thrive at the intersection of **Software Engineering**, **Theoretical Physics**, and **Cinematography & Design**. Here are some of the key programming languages, creative tools, frameworks, and development platforms I leverage to build world-class tech and digital media:",
+    "skills": [
+        {
+            "title": "Languages & Databases",
+            "items": [
+                {
+                    "icon": "images/skills/python.png",
+                    "title": "Python (Scientific & Backend)"
+                },
+                {
+                    "icon": "images/skills/js.png",
+                    "title": "JavaScript (ES6+)"
+                },
+                {
+                    "icon": "images/skills/typescript.png",
+                    "title": "TypeScript"
+                },
+                {
+                    "icon": "images/skills/c-plus-plus.svg",
+                    "title": "C++ & Systems Modeling"
+                },
+                {
+                    "icon": "images/skills/mysql.png",
+                    "title": "MySQL / Relational DBs"
+                },
+                {
+                    "icon": "images/skills/mongo-db.png",
+                    "title": "MongoDB"
+                }
+            ]
+        },
+        {
+            "title": "Frameworks & Core Tech",
+            "items": [
+                {
+                    "icon": "images/skills/react.png",
+                    "title": "React & SPA Architecture"
+                },
+                {
+                    "icon": "images/skills/nodejs.png",
+                    "title": "Node.js & Runtime Ecosystems"
+                },
+                {
+                    "icon": "images/skills/django.png",
+                    "title": "Django & Web API"
+                },
+                {
+                    "icon": "images/skills/html.png",
+                    "title": "HTML5 / DOM Optimization"
+                },
+                {
+                    "icon": "images/skills/css.png",
+                    "title": "Vanilla CSS / Responsive UI"
+                }
+            ]
+        },
+        {
+            "title": "Creative Production & Tools",
+            "items": [
+                {
+                    "icon": "images/skills/photoshop.png",
+                    "title": "Video Editing & Visual Post"
+                },
+                {
+                    "icon": "images/skills/git.png",
+                    "title": "Git & Version Control"
+                },
+                {
+                    "icon": "images/skills/docker.png",
+                    "title": "Docker Containerization"
+                },
+                {
+                    "icon": "images/skills/cloudflare.png",
+                    "title": "Cloudflare Networking"
+                },
+                {
+                    "icon": "images/skills/firebase.png",
+                    "title": "Firebase Infrastructure"
+                }
+            ]
+        }
+    ]
+}

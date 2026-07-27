@@ -1,0 +1,28 @@
+{
+    "education": [
+        {
+            "title": "Jun 2025 - Jun 2029",
+            "cardTitle": "B.E., Computer Science",
+            "cardSubtitle": "V.V.P. College, India",
+            "cardDetailedText": "CGPA: 9.5 / 10.0 | Majoring in Computer Science and systems engineering."
+        },
+        {
+            "title": "Apr 2025",
+            "cardTitle": "High School Diploma",
+            "cardSubtitle": "Tapan School, Rajkot",
+            "cardDetailedText": "Marks: 99% | Excellence in Sciences, Mathematics, and Technology."
+        },
+        {
+            "title": "Aug 2022 – Jun 2024",
+            "cardTitle": "Master of Philosophy - MPhil, Physics",
+            "cardSubtitle": "University of Waterloo",
+            "cardDetailedText": "Focused on analytical physics models, quantum kinematics, and computational scientific problem-solving."
+        },
+        {
+            "title": "Mar 2019 – Dec 2019",
+            "cardTitle": "Bachelor of Fine Arts - BFA, Cinematography and Film/Video Production",
+            "cardSubtitle": "NYU Tisch School of the Arts",
+            "cardDetailedText": "Grade: AA | Comprehensive specialization in visual narrative, advanced lighting, cinematography, and post-production engineering."
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "experiences": [
+        {
+            "title": "Founder / CEO",
+            "subtitle": "VisionNest Creative",
+            "workType": "Full-time · Hybrid (Gujarat, India)",
+            "workDescription": [
+                "Spearheading company vision, executive strategy, and multidisciplinary technology execution.",
+                "Directing high-performance software architecture and state-of-the-art digital media production.",
+                "Scaling operations and driving innovative creative ventures with a bold roadmap toward massive growth."
+            ],
+            "dateText": "Jul 2025 - Present"
+        },
+        {
+            "title": "Video Editor & Cinematic Specialist",
+            "subtitle": "Self-employed",
+            "workType": "Freelance / Self-employed · Remote (India)",
+            "workDescription": [
+                "Delivering over 5 years of top-tier cinematic editing, motion graphics, color grading, and audio mastering.",
+                "Collaborating with brands, production agencies, and digital creators to craft engaging, high-retention video narratives.",
+                "Leveraging automated video workflows and cutting-edge visual post-production techniques."
+            ],
+            "dateText": "Apr 2021 - Present (5 yrs 4 mos)"
+        },
+        {
+            "title": "Software Programmer",
+            "subtitle": "Baunfire",
+            "workType": "Full-time · Hybrid (Gujarat, India)",
+            "workDescription": [
+                "Architected and developed robust, highly interactive user interfaces and modern frontend applications.",
+                "Collaborated cross-functionally with backend engineers and UI/UX design teams to ensure fluid, accessible web experiences.",
+                "Optimized application performance, API integrations, and code modularity across high-traffic enterprise platforms."
+            ],
+            "dateText": "May 2023 - Feb 2025 (1 yr 10 mos)"
+        },
+        {
+            "title": "Software Engineering Intern",
+            "subtitle": "Meta (Facebook)",
+            "workType": "Internship · Remote (India)",
+            "workDescription": [
+                "Contributed to large-scale distributed social networking ecosystems across Meta's web and interactive product infrastructure.",
+                "Engineered scalable code components, evaluated system latencies, and took part in agile cross-functional engineering reviews.",
+                "Gained rigorous production insight into world-class software development, reliability engineering, and system security."
+            ],
+            "dateText": "Nov 2022 - Apr 2023 (6 mos)"
+        }
+    ]
+}
