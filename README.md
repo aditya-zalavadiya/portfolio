@@ -12,8 +12,7 @@
 
 ## Demo
 
-To view the demo: [**click here**](
-aditya-zalavadiya.dpdns.org)
+To view the demo: [**click here**](aditya-zalavadiya.dpdns.org)
 
 ## Choosing a version 🧭
 
