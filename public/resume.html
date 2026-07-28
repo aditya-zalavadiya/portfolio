@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aditya Zalavadiya - Professional Resume</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Charter:wght@400;700&family=Inter:wght@400;500;600;700&display=swap');
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #f3f4f6;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      color: #3f3f46;
+      line-height: 1.6;
+      padding: 40px 20px;
+    }
+
+    .resume-container {
+      max-width: 850px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 60px 70px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+      border-radius: 4px;
+    }
+
+    /* Header Section */
+    .header-grid {
+      display: grid;
+      grid-template-columns: 1fr 280px;
+      gap: 40px;
+      margin-bottom: 45px;
+      align-items: start;
+    }
+
+    .header-left {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .tagline-top {
+      font-size: 14px;
+      font-weight: 600;
+      color: #71717a;
+      letter-spacing: 0.5px;
+    }
+
+    .name {
+      font-family: 'Georgia', 'Times New Roman', serif;
+      font-size: 46px;
+      font-weight: 700;
+      color: #000000;
+      line-height: 1.1;
+      margin-bottom: 6px;
+    }
+
+    .bio-summary {
+      font-size: 14px;
+      color: #52525b;
+      max-width: 95%;
+    }
+
+    .header-right {
+      font-size: 14px;
+      color: #27272a;
+      line-height: 1.6;
+    }
+
+    .header-right strong {
+      color: #000000;
+      display: block;
+      font-weight: 600;
+    }
+
+    .email-link {
+      color: #000000;
+      text-decoration: none;
+      font-weight: 700;
+      display: block;
+    }
+
+    /* Main Two-Column Content Layout */
+    .content-grid {
+      display: grid;
+      grid-template-columns: 1fr 280px;
+      gap: 50px;
+    }
+
+    .section-title {
+      font-size: 13px;
+      font-weight: 700;
+      color: #1a73e8;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      margin-bottom: 25px;
+    }
+
+    .left-column {
+      display: flex;
+      flex-direction: column;
+      gap: 35px;
+    }
+
+    .right-column {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+
+    /* Item Card Styling */
+    .item-group {
+      margin-bottom: 25px;
+    }
+
+    .item-group:last-child {
+      margin-bottom: 0;
+    }
+
+    .item-title {
+      font-family: 'Georgia', 'Times New Roman', serif;
+      font-size: 17px;
+      font-weight: 700;
+      color: #000000;
+    }
+
+    .item-role {
+      font-style: italic;
+      font-weight: 400;
+    }
+
+    .item-date {
+      font-size: 11px;
+      font-weight: 600;
+      color: #71717a;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      margin: 3px 0 8px 0;
+    }
+
+    .item-desc {
+      font-size: 13.5px;
+      color: #444444;
+    }
+
+    /* Right Column Styling */
+    .skills-list, .languages-list {
+      font-size: 14px;
+      color: #444444;
+      line-height: 1.8;
+    }
+
+    .skills-list p, .languages-list p {
+      margin-bottom: 12px;
+    }
+
+    .award-item {
+      margin-bottom: 18px;
+      font-size: 13.5px;
+    }
+
+    .award-item strong {
+      color: #000000;
+      display: inline;
+    }
+
+    .award-item p {
+      color: #52525b;
+      margin-top: 2px;
+    }
+
+    /* Print Utilities */
+    .print-btn {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      background: #1a73e8;
+      color: white;
+      border: none;
+      padding: 14px 24px;
+      font-size: 14px;
+      font-weight: 600;
+      border-radius: 50px;
+      box-shadow: 0 4px 15px rgba(26,115,232,0.35);
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .print-btn:hover {
+      background: #1557b0;
+      transform: translateY(-2px);
+    }
+
+    @media print {
+      body {
+        background: transparent;
+        padding: 0;
+      }
+      .resume-container {
+        box-shadow: none;
+        padding: 20px 20px;
+        width: 100%;
+        max-width: none;
+      }
+      .print-btn {
+        display: none;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .header-grid, .content-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+      }
+      .resume-container {
+        padding: 30px 25px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="resume-container">
+    <!-- Header Section -->
+    <header class="header-grid">
+      <div class="header-left">
+        <span class="tagline-top">Professional Resume & Portfolio Profile</span>
+        <h1 class="name">Aditya Zalavadiya</h1>
+        <p class="bio-summary">Multidisciplinary Founder & CEO, Software Programmer, Physicist, and Video Editor driven by rigorous technological engineering, quantitative science, and cinematic storytelling.</p>
+      </div>
+      <div class="header-right">
+        <span>Racecourse Road , 9/3 corner ,</span><br>
+        <span>Rajkot , India . 360001 .</span>
+        <strong>+91 97734 40732</strong>
+        <a class="email-link" href="mailto:adityazalavdiya007@gmail.com">adityazalavdiya007@gmail.com</a>
+      </div>
+    </header>
+
+    <!-- Main 2-Column Grid -->
+    <div class="content-grid">
+      
+      <!-- Left Main Column (Experience, Education, Projects) -->
+      <div class="left-column">
+        
+        <!-- EXPERIENCE -->
+        <section>
+          <h2 class="section-title">Experience</h2>
+
+          <div class="item-group">
+            <h3 class="item-title">VisionNest Creative, <span style="font-weight:400;">Gujarat, India</span> — <span class="item-role">Founder / CEO</span></h3>
+            <p class="item-date">July 2025 - PRESENT · Hybrid</p>
+            <p class="item-desc">Leading company strategy, modern digital media production, executive scale, and high-performance technical software architecture.</p>
+          </div>
+
+          <div class="item-group">
+            <h3 class="item-title">Self-employed, <span style="font-weight:400;">Remote</span> — <span class="item-role">Video Editor & Creator</span></h3>
+            <p class="item-date">April 2021 - PRESENT · 5 years 4 months</p>
+            <p class="item-desc">Developing advanced cinematic color grades, automated narrative timelines, motion typography scripts, and script-driven video workflows.</p>
+          </div>
+
+          <div class="item-group">
+            <h3 class="item-title">Baunfire, <span style="font-weight:400;">Gujarat, India</span> — <span class="item-role">Software Programmer</span></h3>
+            <p class="item-date">May 2023 - February 2025 · 1 year 10 months</p>
+            <p class="item-desc">Engineered resilient interactive web applications, fluid UX micro-animations, RESTful data integration, and cross-browser optimized interfaces.</p>
+          </div>
+
+          <div class="item-group">
+            <h3 class="item-title">Meta (Facebook), <span style="font-weight:400;">Remote</span> — <span class="item-role">Software Engineering Intern</span></h3>
+            <p class="item-date">November 2022 - April 2023 · 6 months</p>
+            <p class="item-desc">Collaborated with distributed engineering teams to design scalable backend feature modules, evaluate latency telemetry, and execute rigorous testing.</p>
+          </div>
+        </section>
+
+        <!-- EDUCATION -->
+        <section>
+          <h2 class="section-title">Education</h2>
+
+          <div class="item-group">
+            <h3 class="item-title">V.V.P. College, <span style="font-weight:400;">India</span> — <span class="item-role">B.E., Computer Science</span></h3>
+            <p class="item-date">June 2025 - June 2029 · CGPA: 9.5</p>
+            <p class="item-desc">Achieved academic distinction with an exceptional CGPA of 9.5. Focused on algorithm design, systems software, and high-speed networks.</p>
+          </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section>
+          <h2 class="section-title">Projects</h2>
+
+          <div class="item-group">
+            <h3 class="item-title">Dynamic Developer Portfolio — <span class="item-role">React 18 & Vite</span></h3>
+            <p class="item-desc">Engineered a reactive bento-grid developer portfolio featuring dynamic Markdown rendering, dark/light theme toggling, and structured JSON content delivery.</p>
+          </div>
+
+          <div class="item-group">
+            <h3 class="item-title">Caaring & Secure Chat Suite — <span class="item-role">Django & Android</span></h3>
+            <p class="item-desc">Built collaborative cab sharing platforms with Python/Django and end-to-end RSA encrypted real-time Android communication applications utilizing Firebase.</p>
+          </div>
+        </section>
+      </div>
+
+      <!-- Right Sidebar Column (Skills, Awards, Languages) -->
+      <div class="right-column">
+        
+        <!-- SKILLS -->
+        <section>
+          <h2 class="section-title">Skills</h2>
+          <div class="skills-list">
+            <p><strong>Languages:</strong> Python, JavaScript, TypeScript, C++, Java, Kotlin, SQL, HTML5, CSS3.</p>
+            <p><strong>Web & Cloud Architecture:</strong> React.js, Vite, Node.js, Django, Docker, Cloudflare, Firebase, SendGrid.</p>
+            <p><strong>Mobile & Systems:</strong> Android Studio, MVVM Architecture, Room DB, Kotlin Coroutines & Paging 3.</p>
+            <p><strong>Creative & Media:</strong> Advanced Video Post-Production, Cinematography, Photoshop, Motion Graphics, Audio Leveling.</p>
+          </div>
+        </section>
+
+        <!-- AWARDS -->
+        <section>
+          <h2 class="section-title">Awards</h2>
+          
+          <div class="award-item">
+            <strong>National Computational Innovator Award</strong> (2024)
+            <p>Recognized for analytical excellence in scientific simulations and quantitative data engineering.</p>
+          </div>
+
+          <div class="award-item">
+            <strong>Cinematographic Excellence Mention</strong> (2022)
+            <p>Awarded for creative digital storytelling and advanced automated video timeline grading.</p>
+          </div>
+
+          <div class="award-item">
+            <strong>Academic Distinction Gold Shield</strong> (2025)
+            <p>Commended for graduating High School with 99% overall marks and attaining a 9.5 CGPA in Computer Science.</p>
+          </div>
+        </section>
+
+        <!-- LANGUAGES -->
+        <section>
+          <h2 class="section-title">Languages</h2>
+          <div class="languages-list">
+            <p>English, Gujarati, Hindi, Spanish, French, Japanese</p>
+          </div>
+        </section>
+        
+      </div>
+    </div>
+  </div>
+
+  <button class="print-btn" onclick="window.print()">🖨️ Print / Save as PDF</button>
+</body>
+</html>

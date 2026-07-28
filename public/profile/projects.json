@@ -1,7 +1,7 @@
 {
     "projects": [
         {
-            "image": "images/projects/portfolio-poster.png",
+            "image": "images/projects/portfolio-poster.jpeg",
             "title": "Dynamic Developer Portfolio",
             "bodyText": "- Developer Portfolio Website built in React and Vite for Aditya Zalavadiya (AZ).\n - Fully customisable, dynamic Markdown rendering, and reactive bento grid UI architecture.\n - Integrated Dark & Light Mode theme toggling.",
             "links": [
