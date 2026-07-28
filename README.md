@@ -12,7 +12,8 @@
 
 ## Demo
 
-To view the demo: [**click here**](https://portfolio.communityofaditya007.workers.dev/)
+To view the demo: [**click here**](
+aditya-zalavadiya.dpdns.org)
 
 ## Choosing a version 🧭
 
