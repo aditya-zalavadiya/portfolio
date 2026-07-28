@@ -1,11 +1,5 @@
 # Dev Portfolio (https://github.com/aditya-zalavadiya/portfolio.git)
 
-## A minimal portfolio template for Developers!
-
-<h2 align="center">
-  <img src="https://github.com/mayankagarwal09/dev-portfolio/blob/master/images/dev-portfolio.gif" alt="Dev Portfolio" />
-  <br>
-</h2>
 
 ## Features
 
@@ -18,7 +12,7 @@
 
 ## Demo
 
-To view the demo: [**click here**](https://github.com/aditya-zalavadiya/portfolio.git)
+To view the demo: [**click here**](https://portfolio.communityofaditya007.workers.dev/)
 
 ## Choosing a version 🧭
 
