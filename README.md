@@ -23,13 +23,7 @@ This template ships in two UI flavors — pick the one you like:
 |**v2** *(latest)*|Modern bento, dark-first|default branch / [latest release](https://github.com/aditya-zalavadiya/portfolio.git)|[live](https://github.com/aditya-zalavadiya/portfolio.git)|
 |**v1**|Classic|[`v1`](https://github.com/aditya-zalavadiya/portfolio.git) branch / `v1.x` release|[live](https://github.com/aditya-zalavadiya/portfolio.git)|
 
-```bash
-# New UI (v2) — default
-git clone https://github.com/mayankagarwal09/dev-portfolio
 
-# Classic UI (v1)
-git clone -b v1 https://github.com/mayankagarwal09/dev-portfolio
-```
 
 ## Why do you need a portfolio? ☝️
 
@@ -55,16 +49,6 @@ Also, you can use [Yarn](https://yarnpkg.com/) instead of NPM ☝️
 
 From your command line, first clone Dev Portfolio:
 
-```bash
-# Clone the repository
-$ git clone https://github.com/mayankagarwal09/dev-portfolio
-
-# Move into the repository
-$ cd dev-portfolio
-
-# Remove the current origin repository
-$ git remote remove origin
-```
 
 After that, you can install the dependencies either using NPM or Yarn.
 
@@ -147,7 +131,7 @@ It has 2 keys, *logo* and *sections*.
         },
         {
             "title": "Resume",
-            "href": "https://drive.google.com/file/d/13kaPsdMNDsM4LV9g7m5-E5PTildp-yYf/view?usp=sharing",
+            "href": "https://drive.google.com/",
             "type": "link"
         }
     ]
@@ -435,11 +419,11 @@ It has 2 keys, *logo* and *sections*.
             "links": \\\[
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
+                    "href": ""
                 },
                 {
                     "text": "Live",
-                    "href": "https://mayankagarwal.me"
+                    "href": ""
                 }
             ],
             "tags" : \\\[
@@ -454,7 +438,7 @@ It has 2 keys, *logo* and *sections*.
             "links": \\\[
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/mvvm-sample-app"
+                    "href": ""
                 }
             ],
             "tags" : \\\[
@@ -474,7 +458,7 @@ It has 2 keys, *logo* and *sections*.
             "links": \\\[
                 {
                     "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/task-tracker-app"
+                    "href": ""
                 }
             ],
             "tags" : \\\[
