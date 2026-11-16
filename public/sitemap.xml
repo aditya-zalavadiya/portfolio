@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://adityazalavadiya.dpdns.org/</loc>
-    <lastmod>2026-11-16</lastmod>
-  </url>
-  <url>
-    <loc>https://adityazalavadiya.dpdns.org/resume.html</loc>
-    <lastmod>2026-11-16</lastmod>
-  </url>
+  <url><loc>https://adityazalavadiya.dpdns.org/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://adityazalavadiya.dpdns.org/about</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://adityazalavadiya.dpdns.org/skills</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://adityazalavadiya.dpdns.org/education</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://adityazalavadiya.dpdns.org/experience</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://adityazalavadiya.dpdns.org/projects</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://adityazalavadiya.dpdns.org/resume</loc><lastmod>2026-11-16</lastmod></url>
 </urlset>
